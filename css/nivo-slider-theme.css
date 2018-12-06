@@ -18,6 +18,9 @@ Supports Thumbs: true
 .slider-content {
   padding: 180px 60px;
 }
+.slider-content .title2 span {
+  color: #D62531;
+}
 
 .nivo-caption::after {
   background: #444 none repeat scroll 0 0;
