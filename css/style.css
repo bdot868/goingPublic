@@ -171,7 +171,7 @@ body {
 }
 
 .back-to-top:hover {
-  background: #3cd6ed;
+  background: #d62531;
   color: #fff;
 }
 
@@ -264,14 +264,14 @@ div#preloader {
   left: 0;
   width: 100%;
   height: auto;
-  background: rgba(0, 0, 0, 0.40);
+  /* background: rgba(0, 0, 0, 0.40); */
   z-index: 9;
 }
 
 .navbar-header a.navbar-brand {
   display: inline-block;
   height: 70px;
-  padding: 15px 0;
+  padding: 0;
 }
 
 .main-menu ul.navbar-nav li {
@@ -314,7 +314,7 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li a:hover {
-  color: #3EC1D5;
+  color: #D62531;
 }
 
 .navbar {
@@ -383,12 +383,14 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area.stick {
-  background-color: rgba(0, 0, 0, 1);
-  height: 70px;
+  background-color: #fff;
+  height: 100px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0px 0px 14px #808080;
+  /* box-shadow: 0px 10px 5px -8px rgba(0,0,0,0.75); */
 }
 
 .stick .navbar-header a.navbar-brand {
@@ -426,12 +428,12 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a:hover {
-  color: #fff;
+  color: #D62531;
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #D62531;
   position: relative;
 }
 
@@ -454,8 +456,9 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a {
-  color: #fff;
-  line-height: 22px;
+  font-weight: 800;
+  color: #000;
+  line-height: 50px;
   padding: 24px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -497,6 +500,7 @@ div#preloader {
 
 .single-well p {
   color: #444;
+  text-align: justify;
 }
 
 /*--------------------------------*/
@@ -880,7 +884,7 @@ div#preloader {
 .flip-card {
   background-color: transparent;
   width: auto;
-  height: 450px;
+  height: 410px;
   perspective: 1000px;
 }
 
@@ -911,15 +915,21 @@ div#preloader {
   color: black;
   z-index: 2;
 }
-.centered {
+.flip-card-inner .karen {
+  text-align: right;
+}
+.flip-card-inner .tanya {
+  text-align: left;
+}
+/* .centered {
   position: absolute;
-  /* color: #fff; */
+  color: #fff;
   font-weight: bolder;
   font-size: 26px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 .flip-card-back {
   background-color: #2980b9;
@@ -1967,6 +1977,22 @@ a.browse {
 .contact-area {
   height: auto;
   width: 100%;
+  background: #444444;
+}
+
+.contact-area .section-headline h2 {
+  color: #ffffff;
+}
+.contact-area .section-headline h2::after {
+  border: 1px solid #fff;
+}
+
+
+.contact-subtitle h2 {
+  text-align: center;
+  padding: 70px;
+  color: #ffffff;
+  font-size: 44px;
 }
 
 .contact-content {
@@ -1979,7 +2005,7 @@ a.browse {
 }
 
 .contact-form input[type="text"], .contact-form input[type="email"] {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  background: #ffffff;
   border: 1px solid #ccc;
   border-radius: 0;
   color: #444;
@@ -1990,7 +2016,7 @@ a.browse {
 }
 
 .contact-form textarea  {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  background: #ffffff;
   border: 1px solid #ccc;
   border-radius: 0;
   color: #444;
@@ -2000,9 +2026,9 @@ a.browse {
 }
 
 .contact-form button[type="submit"] {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  color: #444;
+  background: #D62531;
+  border: 1px solid #D62531;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 700;
   margin-top: 8px;
@@ -2014,8 +2040,8 @@ a.browse {
 
 .contact-form button[type=submit]:hover {
   color: #fff;
-  border: 1px solid #D62531;
-  background: #D62531;
+  border: 1px solid #000;
+  background: #000;
 }
 
 .contact-form  #sendmessage {
@@ -2080,7 +2106,7 @@ a.browse {
 /*----------------------------------------*/
 
 .footer-area {
-  padding: 40px 0;
+  padding: 20px 0;
   background: #f9f9f9;
 }
 
@@ -2092,7 +2118,7 @@ a.browse {
   color: #444;
   font-size: 16px;
   letter-spacing: 2px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   text-transform: uppercase;
 }
 
@@ -2137,12 +2163,31 @@ a.browse {
 }
 
 .footer-icons {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .footer-contacts p span {
   color: #d62531;
   font-weight: 700;
+}
+.footer-contacts i {
+  border: 1px solid #444;
+  color: #444;
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 38px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+}
+.footer-contacts i:hover {
+  background: #D62531;
+  color: #fff;
+  border: #D62531;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .popular-tag ul li {
