@@ -222,7 +222,9 @@ div#preloader {
 .padding-2 {
   padding-bottom: 90px;
 }
-
+.faq-area.area-padding {
+  padding-bottom: 0;
+}
 .section-headline h2 {
   display: inline-block;
   font-size: 40px;
@@ -898,7 +900,10 @@ div#preloader {
   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 
-.flip-card:hover .flip-card-inner {
+/* .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+} */
+.flip-card-inner.hovered {
   transform: rotateY(180deg);
 }
 
@@ -1992,7 +1997,12 @@ a.browse {
   text-align: center;
   padding: 70px;
   color: #ffffff;
-  font-size: 44px;
+  font-size: 50px;
+  line-height: normal;
+  font-style: italic;
+}
+.contact-subtitle h2 span {
+  color: #D62531;
 }
 
 .contact-content {
@@ -2039,9 +2049,9 @@ a.browse {
 }
 
 .contact-form button[type=submit]:hover {
-  color: #fff;
-  border: 1px solid #000;
-  background: #000;
+  color: #D62531;
+  border: 1px solid #D62531;
+  background: #fff;
 }
 
 .contact-form  #sendmessage {
