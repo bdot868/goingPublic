@@ -122,7 +122,10 @@
 
   .header-area {
     height: 60px !important;
-    background: #000;
+    /* background: #000; */
+  }
+  .navbar-brand {
+    width: 5rem;
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
@@ -188,6 +191,11 @@
   }
   .tab-menu ul.nav li a {
     padding: 8px 6px;
+  }
+
+  .img-break {
+    background-size: auto;
+    background-attachment: local;
   }
   .wellcome-text {
     margin: 0px;
