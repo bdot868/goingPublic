@@ -122,10 +122,10 @@
 
   .header-area {
     height: 60px !important;
-    /* background: #000; */
+    background: #fff;
   }
   .navbar-brand {
-    width: 5rem;
+    width: 5rem !important;
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
