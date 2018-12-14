@@ -119,7 +119,12 @@
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
-
+  .img-break {
+    display: none;
+  }
+  .mobile-img-break {
+    display: block;
+  }
   .header-area {
     height: 60px !important;
     background: #fff;
@@ -148,6 +153,9 @@
   }
   .main-menu ul.navbar-nav li.active a::after, .stick .main-menu ul.navbar-nav li.active a::after {
     border: 0px solid #fff;
+  }
+  .stick .navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
   }
   .logo {
     height: inherit;
@@ -197,6 +205,21 @@
     background-size: auto;
     background-attachment: local;
   }
+  #team .col-md-6 {
+    display: none
+  }
+  #mobile-card {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back {
+    overflow: scroll;
+  }
+
   .wellcome-text {
     margin: 0px;
     padding: 70px 0px;

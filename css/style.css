@@ -818,6 +818,10 @@ div#preloader {
   height: 30rem;
 }
 
+.mobile-img-break {
+  display: none;
+}
+
 .well-bg {
   position: relative;
 }
@@ -903,9 +907,6 @@ div#preloader {
   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 
-/* .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-} */
 .flip-card-inner.hovered {
   transform: rotateY(180deg);
 }
@@ -948,6 +949,10 @@ div#preloader {
 }
 .flip-card-back h3, .flip-card-back h5, .flip-card-back p {
   color: #fff;
+}
+
+#mobile-card {
+  display: none;
 }
 
 /* --------------------------- */
