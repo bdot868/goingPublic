@@ -208,10 +208,10 @@
   #team .col-md-6 {
     display: none
   }
-  #mobile-card {
+  /* #mobile-card {
     display: block;
     margin-bottom: 10px;
-  }
+  } */
 
   .flip-card-back {
     overflow: scroll;
