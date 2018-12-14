@@ -157,6 +157,9 @@
   .stick .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
   }
+  .stick .main-menu ul.nav>li>a {
+    color: #ffffff;
+  }
   .logo {
     height: inherit;
     left: 0;
@@ -174,11 +177,11 @@
   }
 
   .slider-content h2 {
-    font-size: 18px !important;
+    font-size: 20px !important;
     line-height: 24px !important;
   }
   .slider-content h1 {
-    font-size: 20px !important;
+    font-size: 24px !important;
     line-height: 26px !important;
   }
 
@@ -211,6 +214,9 @@
   #mobile-card {
     display: block;
     margin-bottom: 10px;
+  }
+  #mobile-card h3 {
+    color: #fff;
   }
 
   .flip-card-back {
@@ -271,6 +277,10 @@
     margin-left: 0;
     margin-top: 30px;
   }
+  .contact-subtitle h2 {
+    padding: 0;
+    font-size: 40px;
+  }
   .contact-form {
     margin-top: 30px;
   }
@@ -302,6 +312,9 @@
 /* Large Mobile :480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .slider-content h1 {
+    font-size: 30px !important;
+  }
   .submitbtn {
     float: none;
     width: 99.8%;
@@ -314,6 +327,18 @@
   .blog-post-dlc ul li {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .single-well img {
+    width: 100%;
+  }
+  .services img {
+    height: 400px;
+  }
+  #mobile-card .image {
+    height: auto;
+  }
+  .contact-subtitle h2 {
+    font-size: 50px;
   }
   .awesome-portfolio-content .portfolio-2 {
     width: 50%;
