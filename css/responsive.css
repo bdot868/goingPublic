@@ -212,9 +212,6 @@
     display: block;
     margin-bottom: 10px;
   }
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
 
   .flip-card-back {
     overflow: scroll;
