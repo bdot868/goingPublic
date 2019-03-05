@@ -29,6 +29,7 @@
   17.Home Page 3  CSS
   18.Blog CSS
   17.Blog Details CSS
+  18.Contact form
 
 -----------------------------------------------------------------------------------*/
 
@@ -890,6 +891,8 @@ div#preloader {
 /*----------------------------------------
  8.Team Area Css
 ----------------------------------------*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
 .flip-card {
   background-color: transparent;
   width: auto;
@@ -916,13 +919,16 @@ div#preloader {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
 }
 
 .flip-card-front {
   /* background-color: #bbb; */
   text-align: center;
   color: black;
-  z-index: 2;
+  /* z-index: 2; */
 }
 .flip-card-inner .karen {
   text-align: right;
@@ -1357,6 +1363,7 @@ a.browse {
   font-weight: 600;
   padding-bottom: 10px;
   text-transform: uppercase;
+}
 }
 
 /*--------------------------------*/
@@ -2750,6 +2757,11 @@ span.email-notes {
   border-top: 1px solid #e5e5e5;
   margin: 0;
   padding-top: 30px;
+}
+
+#contact-form .messages .alert-success {
+  color: red;
+  background: #fff;
 }
 
 /*----------------------------------------
