@@ -130,7 +130,12 @@
     background: #fff;
   }
   .navbar-brand {
-    width: 5rem !important;
+    width: 7rem !important;
+  }
+
+  .stick .navbar-brand.sticky-logo>img {
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
   .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
     display: inline-block;
