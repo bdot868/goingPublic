@@ -397,7 +397,7 @@ div#preloader {
 }
 
 .navbar-brand {
-  width: 10rem;
+  width: 15rem;
 }
 .stick .navbar-header a.navbar-brand {
   display: inline-block;
@@ -410,6 +410,8 @@ div#preloader {
 
 .stick .navbar-brand.sticky-logo>img {
   display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .sticky-logo h1 {
