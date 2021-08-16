@@ -523,6 +523,10 @@ div#preloader {
   line-height: 36px;
   margin-bottom: 20px;
 }
+.no-col .services-icon {
+  margin: 20px;
+  display: none;
+}
 
 .section-headline.services-head>h2 {
   margin-bottom: 25px;
